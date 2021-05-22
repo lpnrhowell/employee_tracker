@@ -4,13 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon db.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.0",
     "mysql2": "^2.2.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpnrhowell/employee_tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lpnrhowell/employee_tracker/issues"
+  },
+  "homepage": "https://github.com/lpnrhowell/employee_tracker#readme"
 }

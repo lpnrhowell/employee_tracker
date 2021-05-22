@@ -12,7 +12,7 @@ const db = mysql.createConnection({
 
 db.connect(function(err) {
   if (err) throw err;
-  console.log("Connected!");
+  // console.log("Connected!");
 });
 
 // db.promise()
@@ -27,12 +27,4 @@ db.connect(function(err) {
 // }).catch(err => {
 //     console.log(err);
 // });
-db.execute(
-"SELECT * FROM `employee`",
-(error, result) => {
-  console.log(result);
-  result.forEach(duk => {
-        console.log(duk.first_name);
-  })
-}
-);
+module.exports = db
