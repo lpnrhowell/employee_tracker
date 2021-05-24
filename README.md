@@ -4,6 +4,7 @@ A developed interface that make it easy for non-developers to view and interact 
 
 Instructions
 ### Database Schema Contains Three Tables:
+![homepage](./assets/images/screenShot.png "homepage")
 
 department:
 
@@ -56,6 +57,8 @@ Use console.table to print MySQL rows to the console. There is a built-in versio
 You may wish to have a separate file containing functions for performing specific SQL queries you'll need to use. Could a constructor function or a class be helpful for organizing these?
 
 You will need to perform a variety of SQL JOINS to complete this assignment, and it's recommended you review the week's activities if you need a refresher on this.
+
+https://user-images.githubusercontent.com/79549867/119289162-0b509700-bc18-11eb-9357-3e1de2d25de4.mov
 
 
 
