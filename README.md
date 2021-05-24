@@ -58,6 +58,8 @@ You may wish to have a separate file containing functions for performing specifi
 
 You will need to perform a variety of SQL JOINS to complete this assignment, and it's recommended you review the week's activities if you need a refresher on this.
 
+https://user-images.githubusercontent.com/79549867/119289162-0b509700-bc18-11eb-9357-3e1de2d25de4.mov
+
 
 
 
