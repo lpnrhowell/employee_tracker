@@ -1,27 +1,28 @@
 {
-  "name": "employee_tracker",
+  "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "This employee tracker is a node app utilizing mysql, inquirer, and console.table to read and update a company's employee data.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node employeeDB.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^9.0.2",
-    "express": "^4.17.1",
-    "inquirer": "^8.1.0",
-    "mysql2": "^2.2.5"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lpnrhowell/employee_tracker.git"
+    "url": "git+https://github.com/cdfishe1/employee-tracker.git"
   },
+  "keywords": [],
+  "author": "Charles Fisher",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lpnrhowell/employee_tracker/issues"
+    "url": "https://github.com/cdfishe1/employee-tracker/issues"
   },
-  "homepage": "https://github.com/lpnrhowell/employee_tracker#readme"
+  "homepage": "https://github.com/cdfishe1/employee-tracker#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "console-table-printer": "^2.8.2",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  }
 }
