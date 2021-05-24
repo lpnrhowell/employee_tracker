@@ -4,7 +4,7 @@ A developed interface that make it easy for non-developers to view and interact 
 
 Instructions
 ### Database Schema Contains Three Tables:
-Screen Shot 2021-05-23 at 9.06.23 PM.png
+
 
 department:
 
